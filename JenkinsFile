@@ -12,8 +12,6 @@ pipline{
         stage("Build"){
             steps{
                 echo 'Building'
-                echo "building version ${NEW_VERSION}"
-                sh "mvn build"
             }   
         }
 
